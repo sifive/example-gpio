@@ -13,7 +13,7 @@ Program ESP32-SOLO1 as gpio output source and sifive fe310 as gpio input destina
 The ESP32-SOLO1 will toggle gpio 13 which is gpio 3 fe310 on hifive1-revb.
 
 The expected output:
-
+```
 irq:11                    <== PLIC interrupt number
 gpio 3: 1
 in GPIO RISING CONFIG
@@ -49,4 +49,4 @@ in GPIO LOW CONFIG
 in GPIO LOW ISR           <== GPIO LEVEL LOW ISR looks ok
 gpio 3: 0
 Finish all GPIO ISR tests
-
+```
